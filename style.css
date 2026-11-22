@@ -1,0 +1,34 @@
+img {
+    image-rendering: pixelated;
+}
+
+.tab {
+    border-image: url(tab.png);
+    border-image-repeat: stretch;
+    border-image-slice: 4 fill;
+    image-rendering: pixelated;
+}
+
+.tab:hover, .tab:active {
+    border-image: url(activeTab.png);
+    border-image-repeat: stretch;
+    border-image-slice: 4 fill;
+    image-rendering: pixelated;
+}
+
+
+.shop {
+    border: 20px solid;
+    border-image: url(shop.png);
+    border-image-repeat: stretch;
+    border-image-slice:5 fill;
+    image-rendering: pixelated;
+}
+
+.card {
+    border: 16px solid;
+    border-image: url(shop-card.png);
+    border-image-repeat: stretch;
+    border-image-slice:4 fill;
+    image-rendering: pixelated;
+}
